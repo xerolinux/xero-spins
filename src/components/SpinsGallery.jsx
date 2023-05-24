@@ -33,7 +33,6 @@ const SpinsGallery = () => {
                 <Carrot>
                     <Carousel
                         autoPlay={false}
-                        width={1100}
                         centerMode={true}
                         infiniteLoop={true}
                         labels={false}
@@ -71,6 +70,13 @@ const Spinning = styled.section`
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+
+  & > .container {
+    width: 100vw;
+  }
+  & .carousel-root {
+    width: 85%;
+  }
 `;
 
 const Carrot = styled.div`
@@ -78,7 +84,8 @@ const Carrot = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px
+  margin-top: 40px;
+  overflow:hidden;
 `;
 
 export default SpinsGallery
