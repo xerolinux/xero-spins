@@ -75,12 +75,12 @@ const Spinning = styled.section`
     width: 100vw;
   }
   & .carousel-root {
-    width: 85%;
+    width: 98%;
   }
 `;
 
 const Carrot = styled.div`
-  width: 100%;
+  width: 98%;
   display: flex;
   justify-content: center;
   align-items: center;
