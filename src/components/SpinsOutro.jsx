@@ -29,14 +29,14 @@ const SpinsReasons= () => {
 };
 
 const SpinsOutroSection = styled.div`
-  flex: 0.5;
+  flex: 1em;
   padding-block: var(--padding-section);
   width: 100%;
 `;
 
 const P = styled.p`
   color: rgb(var(--white));
-  font-size: var(--fz-5);
+  font-size: var(--fz-6);
   margin-block: 1em;
   & > a {
     text-decoration: underline;

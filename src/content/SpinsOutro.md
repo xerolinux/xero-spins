@@ -1,7 +1,10 @@
-# Why It's Behind a Donation Wall :
- 
-Well, as you all know by now, my current situation, in Lebanon, is not great, with up to 4h of Government provided electricity, I am limited on time & it's much harder to maintain such things. With no other income, to rent Generator power, I rely on your generous contributions. So, as a result I had no choice but to charge for my time.. See video below.
-
+# XeroLinux could use your help :
+<br />
+Well, the current situation, in <span>Lebanon</span>, is not great, with up to 4 hours of Government provided electricity, and 98% currency devaluation, among many other problems, I am limited on time & reources, and with no other means of income to keep the Generator power running for longer than absolutely necessary and cover server fees for hosting the sites and repos, therefore I solely rely on your generous contributions. Any amount will go a long way making sure the project continues to thrive.
+<br /> <br />
+<center><h1 id="Donate">Click <a href="https://ko-fi.com/xerolinux" target="_blank">Here</a> or <a href="https://patreon.com/xerolinux" target="_blank">Here</a>
+ to pledge your support.</h1></center>
+<br />
 <center>
 <div id="lebanon" style="overflow: hidden">
 <iframe
@@ -16,5 +19,3 @@ Well, as you all know by now, my current situation, in Lebanon, is not great, wi
 </iframe>
 </div>
 </center>
-
-The code is free, will forever be so, on Github, but if you want me to build an ISO for you, coz you aren't familiar with Linux & how things work, you will have to contribute *any* amount which will unlock access to download links.

@@ -20,15 +20,7 @@ const ImageCard = ({ title, icon, alt, text, btn1Text, btn2Text, btn1Action, btn
           action={() => window.open(btn1Action, '_blank')}
         />
         <Button
-          text={btn2Text}
-          themed
-          padding=".75em 1.75em"
-          fz="var(--fz-5)"
-          clr="rgb(var(--white))"
-          action={() => window.open(btn2Action, '_blank')}
-        />
-        <Button
-          text="Details"
+          text="More Details"
           themed
           padding=".75em 1.75em"
           fz="var(--fz-5)"

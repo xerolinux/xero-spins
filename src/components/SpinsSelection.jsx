@@ -19,8 +19,6 @@ const SpinsSelection = () => {
                             text={CONTENT[0].text}
                             btn1Action={CONTENT[0].buttonLeftAction}
                             btn1Text={CONTENT[0].buttonLeftText}
-                            btn2Action={CONTENT[0].buttonRightAction}
-                            btn2Text={CONTENT[0].buttonRightText}
                             detailsLink={CONTENT[0].detailsAction}
                         />
                         <ImageCard
@@ -29,8 +27,6 @@ const SpinsSelection = () => {
                             text={CONTENT[1].text}
                             btn1Action={CONTENT[1].buttonLeftAction}
                             btn1Text={CONTENT[1].buttonLeftText}
-                            btn2Action={CONTENT[1].buttonRightAction}
-                            btn2Text={CONTENT[1].buttonRightText}
                             detailsLink={CONTENT[1].detailsAction}
                         />
                     </Cards>

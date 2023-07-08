@@ -16,7 +16,7 @@ const Div = styled.div`
   background-color: rgb(var(--bg2));
   border-radius: ${(props) =>
     props.noBR === true ? "0" : "var(--border-radius)"};
-  padding: 1rem;
+  padding: 0.5rem;
   background-image: url(${darkbg});
   background-size: cover;
   background-repeat: no-repeat;

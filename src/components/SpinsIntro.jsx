@@ -33,7 +33,7 @@ const SpinsSection = styled.div`
 
 const P = styled.p`
   color: rgb(var(--white));
-  font-size: var(--fz-5);
+  font-size: var(--fz-6);
   margin-block: 1em;
   & > a {
     text-decoration: underline;
