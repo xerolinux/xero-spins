@@ -10,9 +10,9 @@ const ImageCard = ({ title, icon, alt, text, btn1Text, btn2Text, btn1Action, btn
       <Img src={icon} alt={alt} />
       <H2>{title}</H2>
       <P className="markdown" dangerouslySetInnerHTML={{ __html: marked.parse(text) }} />
-      <Buttons justify="center"> 
+      <Buttons justify="center">
         <Button
-          text={btn1Text}
+          text="Build ISO"
           themed
           padding=".75em 1.75em"
           fz="var(--fz-5)"
@@ -20,13 +20,21 @@ const ImageCard = ({ title, icon, alt, text, btn1Text, btn2Text, btn1Action, btn
           action={() => window.open(btn1Action, '_blank')}
         />
         <Button
-          text="More Details"
+          text="$ Get ISO $"
+          themed
+          padding=".75em 1.75em"
+          fz="var(--fz-5)"
+          clr="rgb(var(--white))"
+          action={() => window.open(btn2Action, '_blank')}
+        />
+        <Button
+          text="Features"
           themed
           padding=".75em 1.75em"
           fz="var(--fz-5)"
           clr="rgb(var(--white))"
           action={() => window.open(detailsLink, '_blank')}
-        />  
+        />
       </Buttons>
     </Div>
   );
